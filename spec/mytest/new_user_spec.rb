@@ -26,18 +26,7 @@ describe "the signup process", :type => :feature do
     fill_in 'Leader name', :with => 'Edber' 
     click_button('Create Employee')
     page.should have_content 'Employee was successfully created'
-    
-    
-  
   end
-  
-  
-  
-  
-  
-  
-  
-  
 end
 
   
