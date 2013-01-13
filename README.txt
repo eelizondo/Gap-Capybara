@@ -10,23 +10,25 @@ The Project was created on Java with Selenium. The file and directory structure 
 
 Gap Project
 |--pom.xml
-|--src
-|----main
-|------java
-|--------com
-|----------gap
-|------------component
-|--------------BaseTEstJelper.java
-|--------------gap_component.java
-|----test
-|------java
-|--------com
-|----------gap
-|------------tests
-|--------------test_Login_Account.java
-|--------------test_New_User.java
-|--------------test_Public_ID.java
-|--------------test_Vacation_Request.java
+|--app
+|--config
+|--db
+|--doc
+|--lib
+|--log
+|--doc
+|--public
+|--script
+|--spec
+|----mytest
+|------vacation_request_spec.rb
+|------new_user_spec.rb
+|------public_id_spec.rb
+|------login_account_spec.rb
+
+To run those test from console:
+rspec ./spec/mytest/file_name_spec.rb
+
 
 - Escritura en un documento de algunos de los escenarios de prueba (en formato de Test Cases manuales). 
 
