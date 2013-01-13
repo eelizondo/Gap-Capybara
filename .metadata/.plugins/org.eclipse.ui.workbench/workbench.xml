@@ -30,13 +30,18 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="com.aptana.editor.ruby" name="login_account_spec.rb" partName="login_account_spec.rb" title="login_account_spec.rb" tooltip="/Users/Famelca/Desktop/Gap Capybara/spec/mytest/login_account_spec.rb" workbook="DefaultEditorWorkbook">
+<editor id="com.aptana.editor.ruby" name="login_account_spec.rb" partName="login_account_spec.rb" title="login_account_spec.rb" tooltip="/Users/Famelca/Desktop/Gap Capybara/spec/mytest/login_account_spec.rb" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/Users/Famelca/Desktop/Gap%20Capybara/spec/mytest/login_account_spec.rb"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="489" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="458" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="com.aptana.editor.ruby" name="public_id_spec.rb" partName="public_id_spec.rb" title="public_id_spec.rb" tooltip="/Users/Famelca/Desktop/Gap Capybara/spec/mytest/public_id_spec.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/Users/Famelca/Desktop/Gap%20Capybara/spec/mytest/public_id_spec.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="924" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -108,18 +113,14 @@
 <perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="com.aptana.samples.ui.SamplesView"/>
+<view id="com.aptana.snippets.ui.views.SnippetsView"/>
 <fastViewBars>
 <fastViewBar fastViewLocation="1024" id="terminalArea" orientation="256" selectedTabId="com.aptana.terminal.views.terminal:13c2c22f1f0" style="0">
 <fastViews>
 <view id="org.eclipse.ui.console.ConsoleView" ratio="0.3"/>
 <view id="org.eclipse.ui.views.ProblemView" ratio="0.3"/>
 <view id="com.aptana.terminal.views.terminal:13c2c22f1f0" ratio="0.3"/>
-</fastViews>
-</fastViewBar>
-<fastViewBar fastViewLocation="16384" id="org.eclipse.ui.internal.ViewStack@1e12d33" orientation="256" selectedTabId="com.aptana.samples.ui.SamplesView" style="0">
-<fastViews>
-<view id="com.aptana.samples.ui.SamplesView" ratio="0.3"/>
-<view id="com.aptana.snippets.ui.views.SnippetsView" ratio="0.3"/>
 </fastViews>
 </fastViewBar>
 </fastViewBars>
@@ -155,11 +156,14 @@
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@1e12d33" ratio="0.75" ratioLeft="663" ratioRight="221" relationship="4" relative="left">
-<folder appearance="2" expanded="2">
-<page content="com.aptana.samples.ui.SamplesView" label="LabelNotFound"/>
-<page content="com.aptana.snippets.ui.views.SnippetsView" label="LabelNotFound"/>
+<folder activePageID="com.aptana.samples.ui.SamplesView" appearance="2" expanded="2">
+<page content="com.aptana.samples.ui.SamplesView" label="Samples"/>
+<page content="com.aptana.snippets.ui.views.SnippetsView" label="Snippets"/>
 <page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
 </folder>
 </info>
 </mainWindow>
@@ -171,179 +175,176 @@
 <editors>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/Users/Famelca/Desktop/Gap%20Capybara/spec/spec_helper.rb"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/Users/Famelca/Desktop/Gap%20Capybara/spec/controllers/employees_controller_spec.rb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/Users/Famelca/Desktop/Gap%20Capybara/Gemfile"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/Users/Famelca/Desktop/Gap%20Capybara/spec/controllers/vacations_controller_spec.rb"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/Users/Famelca/Desktop/Gap%20Capybara/spec/mailers/user_mailer_spec.rb"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/Users/Famelca/Desktop/Gap%20Capybara/spec/models/employee_spec.rb"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/Users/Famelca/Desktop/Gap%20Capybara/spec/models/vacation_spec.rb"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/Users/Famelca/Desktop/Gap%20Capybara/spec/requests/employees_spec.rb"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/Users/Famelca/Desktop/Gap%20Capybara/spec/requests/vacations_spec.rb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/Users/Famelca/Desktop/Gap%20Capybara/spec/views/vacations/show.html.erb_spec.rb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/Users/Famelca/Desktop/Gap%20Capybara/spec/views/vacations/new.html.erb_spec.rb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/Users/Famelca/Desktop/Gap%20Capybara/spec/views/vacations/index.html.erb_spec.rb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/Users/Famelca/Desktop/Gap%20Capybara/spec/views/vacations/edit.html.erb_spec.rb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/Users/Famelca/Desktop/Gap%20Capybara/spec/views/employees/show.html.erb_spec.rb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/Users/Famelca/Desktop/Gap%20Capybara/spec/views/employees/new.html.erb_spec.rb"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/Users/Famelca/Desktop/Gap%20Capybara/spec/views/employees/index.html.erb_spec.rb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/Users/Famelca/Desktop/Gap%20Capybara/spec/views/employees/edit.html.erb_spec.rb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/Users/Famelca/Desktop/Gap%20Capybara/spec/routing/employees_routing_spec.rb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/Users/Famelca/Desktop/Gap%20Capybara/spec/routing/vacations_routing_spec.rb"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/Users/Famelca/Desktop/Gap%20Capybara/spec/helpers/vacations_helper_spec.rb"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/Users/Famelca/Desktop/Gap%20Capybara/spec/helpers/employees_helper_spec.rb"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/Users/Famelca/Desktop/Gap%20Capybara/test/performance/browsing_test.rb"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/Users/Famelca/Desktop/Gap%20Capybara/test/test_helper.rb"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/Users/Famelca/Desktop/Gap%20Capybara/spec/mytest/login_account_spec.rb"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/Users/Famelca/Desktop/Gap%20Capybara/test/test_helper.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/Users/Famelca/Desktop/Gap%20Capybara/lib/capybara.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/Users/Famelca/Desktop/Temp/Gemfile"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/Users/Famelca/Desktop/Temp/capybara.gemspec"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/Users/Famelca/Desktop/Gap%20Capybara/Gemfile"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/Users/Famelca/Desktop/Gap%20Capybara/spec/spec_helper.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/Users/Famelca/Desktop/Gap%20Capybara/spec/mytest/public_id_spec.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/Users/Famelca/Desktop/Gap%20Capybara/config.ru"/>
 </editors>
-<item historyLabel="employees_controller_spec.rb" index="1">
-<position/>
+<item historyLabel="vacations_spec.rb" index="7">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="spec_helper.rb" index="0">
-<position/>
+<item historyLabel="employees_spec.rb" index="6">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Gemfile" index="2">
+<item historyLabel="vacations_spec.rb" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="vacation_spec.rb" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="employee_spec.rb" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="user_mailer_spec.rb" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="vacations_helper_spec.rb" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="employees_helper_spec.rb" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="vacations_controller_spec.rb" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="employees_controller_spec.rb" index="1">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="vacations_controller_spec.rb" index="3">
+<item historyLabel="browsing_test.rb" index="11">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="employees_controller_spec.rb" index="1">
+<item historyLabel="test_helper.rb" index="12">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="user_mailer_spec.rb" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="employee_spec.rb" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="vacation_spec.rb" index="6">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="employees_spec.rb" index="7">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="vacations_spec.rb" index="8">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="show.html.erb_spec.rb" index="9">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="new.html.erb_spec.rb" index="10">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="index.html.erb_spec.rb" index="11">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="edit.html.erb_spec.rb" index="12">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="show.html.erb_spec.rb | employees" index="13">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="new.html.erb_spec.rb | employees" index="14">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="index.html.erb_spec.rb | employees" index="15">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="edit.html.erb_spec.rb | employees" index="16">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="employees_routing_spec.rb" index="17">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="vacations_routing_spec.rb" index="18">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="employees_routing_spec.rb" index="17">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="vacations_routing_spec.rb" index="18">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="vacations_spec.rb" index="8">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="employees_spec.rb" index="7">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="vacations_spec.rb" index="8">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="vacation_spec.rb" index="6">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="employee_spec.rb" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="user_mailer_spec.rb" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="vacations_helper_spec.rb" index="19">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="employees_helper_spec.rb" index="20">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="vacations_controller_spec.rb" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="employees_controller_spec.rb" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="browsing_test.rb" index="21">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="test_helper.rb" index="22">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="login_account_spec.rb" index="23">
+<item historyLabel="login_account_spec.rb" index="13">
 <position info="not_deleted" x="489" y="0"/>
 </item>
-<item historyLabel="employees_spec.rb" index="7">
+<item historyLabel="employees_spec.rb" index="6">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="login_account_spec.rb" index="23">
+<item historyLabel="login_account_spec.rb" index="13">
 <position info="not_deleted" x="489" y="0"/>
 </item>
-<item historyLabel="index.html.erb_spec.rb | employees" index="15">
+<item historyLabel="index.html.erb_spec.rb | employees" index="8">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="login_account_spec.rb" index="23">
+<item historyLabel="login_account_spec.rb" index="13">
 <position info="not_deleted" x="486" y="0"/>
 </item>
 <item historyLabel="spec_helper.rb" index="0">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="login_account_spec.rb" index="23">
+<item historyLabel="login_account_spec.rb" index="13">
 <position info="not_deleted" x="486" y="0"/>
 </item>
 <item historyLabel="spec_helper.rb" index="0">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="login_account_spec.rb" index="23">
+<item historyLabel="login_account_spec.rb" index="13">
 <position/>
 </item>
-<item historyLabel="test_helper.rb" index="24">
+<item historyLabel="test_helper.rb" index="14">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="login_account_spec.rb" index="23">
+<item historyLabel="login_account_spec.rb" index="13">
 <position/>
 </item>
 <item historyLabel="spec_helper.rb" index="0">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="login_account_spec.rb" index="23">
+<item historyLabel="login_account_spec.rb" index="13">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="test_helper.rb" index="24">
+<item historyLabel="test_helper.rb" index="14">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item active="true" historyLabel="login_account_spec.rb" index="23">
+<item historyLabel="login_account_spec.rb" index="13">
 <position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="capybara.rb" index="15">
+<position info="not_deleted" x="39" y="0"/>
+</item>
+<item historyLabel="login_account_spec.rb" index="13">
+<position info="not_deleted" x="160" y="0"/>
+</item>
+<item historyLabel="capybara.rb" index="15">
+<position info="not_deleted" x="39" y="0"/>
+</item>
+<item historyLabel="Gemfile" index="16">
+<position/>
+</item>
+<item historyLabel="capybara.gemspec" index="17">
+<position/>
+</item>
+<item historyLabel="Gemfile | Gap Capybara" index="18">
+<position/>
+</item>
+<item historyLabel="Gemfile | Gap Capybara" index="18">
+<position/>
+</item>
+<item historyLabel="capybara.gemspec" index="17">
+<position/>
+</item>
+<item historyLabel="Gemfile" index="16">
+<position/>
+</item>
+<item historyLabel="capybara.rb" index="15">
+<position info="not_deleted" x="39" y="0"/>
+</item>
+<item historyLabel="login_account_spec.rb" index="13">
+<position info="not_deleted" x="47" y="0"/>
+</item>
+<item historyLabel="spec_helper.rb" index="19">
+<position info="not_deleted" x="6" y="0"/>
+</item>
+<item historyLabel="login_account_spec.rb" index="13">
+<position info="not_deleted" x="47" y="0"/>
+</item>
+<item historyLabel="Gemfile | Gap Capybara" index="18">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Gemfile | Temp" index="16">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="capybara.gemspec" index="17">
+<position info="not_deleted" x="972" y="32"/>
+</item>
+<item historyLabel="Gemfile | Temp" index="16">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="capybara.gemspec" index="17">
+<position info="not_deleted" x="972" y="32"/>
+</item>
+<item historyLabel="Gemfile" index="18">
+<position info="not_deleted" x="443" y="0"/>
+</item>
+<item historyLabel="login_account_spec.rb" index="13">
+<position info="not_deleted" x="458" y="0"/>
+</item>
+<item historyLabel="public_id_spec.rb" index="20">
+<position info="not_deleted" x="924" y="0"/>
+</item>
+<item historyLabel="config.ru" index="21">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="public_id_spec.rb" index="20">
+<position info="not_deleted" x="924" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -353,6 +354,7 @@
 <trimLayout>
 <trimArea IMemento.internal.id="16384">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@1e12d33"/>
+<trimItem IMemento.internal.id="left"/>
 </trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
@@ -366,11 +368,29 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="test_helper.rb" tooltip="/Users/Famelca/Desktop/Gap Capybara/test/test_helper.rb">
-<persistable uri="file:/Users/Famelca/Desktop/Gap%20Capybara/test/test_helper.rb"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="config.ru" tooltip="/Users/Famelca/Desktop/Gap Capybara/config.ru">
+<persistable uri="file:/Users/Famelca/Desktop/Gap%20Capybara/config.ru"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="public_id_spec.rb" tooltip="/Users/Famelca/Desktop/Gap Capybara/spec/mytest/public_id_spec.rb">
+<persistable uri="file:/Users/Famelca/Desktop/Gap%20Capybara/spec/mytest/public_id_spec.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="capybara.gemspec" tooltip="/Users/Famelca/Desktop/Temp/capybara.gemspec">
+<persistable uri="file:/Users/Famelca/Desktop/Temp/capybara.gemspec"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="Gemfile" tooltip="/Users/Famelca/Desktop/Temp/Gemfile">
+<persistable uri="file:/Users/Famelca/Desktop/Temp/Gemfile"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="Gemfile" tooltip="/Users/Famelca/Desktop/Gap Capybara/Gemfile">
+<persistable uri="file:/Users/Famelca/Desktop/Gap%20Capybara/Gemfile"/>
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="spec_helper.rb" tooltip="/Users/Famelca/Desktop/Gap Capybara/spec/spec_helper.rb">
 <persistable uri="file:/Users/Famelca/Desktop/Gap%20Capybara/spec/spec_helper.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="capybara.rb" tooltip="/Users/Famelca/Desktop/Gap Capybara/lib/capybara.rb">
+<persistable uri="file:/Users/Famelca/Desktop/Gap%20Capybara/lib/capybara.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="test_helper.rb" tooltip="/Users/Famelca/Desktop/Gap Capybara/test/test_helper.rb">
+<persistable uri="file:/Users/Famelca/Desktop/Gap%20Capybara/test/test_helper.rb"/>
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="login_account_spec.rb" tooltip="/Users/Famelca/Desktop/Gap Capybara/spec/mytest/login_account_spec.rb">
 <persistable uri="file:/Users/Famelca/Desktop/Gap%20Capybara/spec/mytest/login_account_spec.rb"/>
@@ -392,24 +412,6 @@
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="edit.html.erb_spec.rb" tooltip="/Users/Famelca/Desktop/Gap Capybara/spec/views/employees/edit.html.erb_spec.rb">
 <persistable uri="file:/Users/Famelca/Desktop/Gap%20Capybara/spec/views/employees/edit.html.erb_spec.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="index.html.erb_spec.rb" tooltip="/Users/Famelca/Desktop/Gap Capybara/spec/views/employees/index.html.erb_spec.rb">
-<persistable uri="file:/Users/Famelca/Desktop/Gap%20Capybara/spec/views/employees/index.html.erb_spec.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="new.html.erb_spec.rb" tooltip="/Users/Famelca/Desktop/Gap Capybara/spec/views/employees/new.html.erb_spec.rb">
-<persistable uri="file:/Users/Famelca/Desktop/Gap%20Capybara/spec/views/employees/new.html.erb_spec.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="show.html.erb_spec.rb" tooltip="/Users/Famelca/Desktop/Gap Capybara/spec/views/employees/show.html.erb_spec.rb">
-<persistable uri="file:/Users/Famelca/Desktop/Gap%20Capybara/spec/views/employees/show.html.erb_spec.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="edit.html.erb_spec.rb" tooltip="/Users/Famelca/Desktop/Gap Capybara/spec/views/vacations/edit.html.erb_spec.rb">
-<persistable uri="file:/Users/Famelca/Desktop/Gap%20Capybara/spec/views/vacations/edit.html.erb_spec.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="index.html.erb_spec.rb" tooltip="/Users/Famelca/Desktop/Gap Capybara/spec/views/vacations/index.html.erb_spec.rb">
-<persistable uri="file:/Users/Famelca/Desktop/Gap%20Capybara/spec/views/vacations/index.html.erb_spec.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="new.html.erb_spec.rb" tooltip="/Users/Famelca/Desktop/Gap Capybara/spec/views/vacations/new.html.erb_spec.rb">
-<persistable uri="file:/Users/Famelca/Desktop/Gap%20Capybara/spec/views/vacations/new.html.erb_spec.rb"/>
 </file>
 </mruList>
 </workbench>

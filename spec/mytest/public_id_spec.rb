@@ -34,3 +34,4 @@ describe "the public id process NEGATIVE case", :type => :feature do
     page.should have_content 'No Employee found with that identification'
   end
 end  
+
