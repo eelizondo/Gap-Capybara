@@ -9,7 +9,6 @@ Para cerrar, para esta prueba se requerirá como entregables: 
 The Project was created on Java with Selenium. The file and directory structure described next:
 
 Gap Project
-|--pom.xml
 |--app
 |--config
 |--db
