@@ -1,0 +1,6 @@
+%h1== Listing vacations for employee: #{@employee.full_name}
+=render '/shared/vacations_details_table', :employee=>@employee, :show_admin => true, :vacations=>@vacations
+%br/
+= link_to 'New Vacation', new_employee_vacation_path(@employee)
+|
+= link_to 'Back to Employee List', employees_path

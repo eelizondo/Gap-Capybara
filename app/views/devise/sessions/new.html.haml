@@ -1,0 +1,26 @@
+%h1 Welcome to GAP's Vacations System
+%p 
+  To get started, please log into your administrator account. If not admin, please visit our
+  = link_to "public site", public_find_employee_url
+%h2 Sign in
+= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f|
+  %div
+    = devise_error_messages!
+  .form_settings
+    %p
+      %span
+        = f.label :email
+      = f.email_field :email
+    %p
+      %span
+        = f.label :password
+      = f.password_field :password  
+    - if devise_mapping.rememberable?
+      %p
+        %span
+          = f.label :remember_me
+        = f.check_box :remember_me, :class=>'checkbox'  
+    %p{:style=>'padding-top:15px'}
+      %span &nbsp;
+      = f.submit "Sign in", :class=>'submit'
+    = render "links"

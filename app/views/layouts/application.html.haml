@@ -1,0 +1,26 @@
+!!!
+%html
+  %head
+    %title Vacations Management Site - Growth Acceleration Partners
+    = stylesheet_link_tag    "application", :media => "all"
+    = javascript_include_tag "application"
+    = csrf_meta_tags
+    = yield :header_information
+  %body
+    #main
+      #header
+        #logo
+          #logo_text
+            %h1
+              = link_to image_tag('site_title.png', :alt=>'Vacations Management'), root_path
+        = render :partial=>'shared/menu'
+      #content_header
+      #site_content
+        #content
+          = yield
+      #footer
+        %p 
+          %a{:title => 'Go to Growth Acceleration Partners Site', :href => 'http://www.growthaccelerationpartners.com'} Growth Acceleration Partners
+          |
+          %a{:title => 'HTML5', :href => 'http://validator.w3.org/check?uri=referer'} HTML5
+      %p &nbsp;

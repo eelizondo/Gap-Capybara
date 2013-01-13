@@ -1,0 +1,27 @@
+%p#notice= notice
+%p
+  %b First name:
+  = @employee.first_name
+%p
+  %b Last name:
+  = @employee.last_name
+%p
+  %b Email:
+  = @employee.email
+%p
+  %b Identification:
+  = @employee.identification
+%p
+  %b Leader name:
+  = @employee.leader_name
+%p
+  %b Start working on:
+  = @employee.start_working_on
+%h1 Employee vacations report
+=render '/shared/vacations_details_table', :employee=>@employee, :show_admin => true, :vacations=>@vacations
+%br
+= link_to 'Edit employee', edit_employee_path(@employee)
+|
+= link_to 'Add/Request Vacations', new_employee_vacation_path(@employee)
+|
+\#{link_to 'Back', employees_path}

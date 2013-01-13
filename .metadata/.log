@@ -1,0 +1,50 @@
+
+!ENTRY org.eclipse.ui.ide 4 4 2013-01-12 16:18:16.085
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2013-01-12 16:18:16.085
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2013-01-12 16:18:16.085
+!MESSAGE Could not write workspace metadata '/Users/Famelca/Desktop/Gap Capybara/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree'.
+!STACK 0
+java.io.FileNotFoundException: /Users/Famelca/Desktop/Gap Capybara/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:47)
+	at org.eclipse.core.internal.resources.SaveManager.saveTree(SaveManager.java:1350)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1134)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2375)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2364)
+	at com.aptana.rcp.IDEWorkbenchAdvisor$4.run(IDEWorkbenchAdvisor.java:476)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SESSION 2013-01-12 16:19:07.588 -----------------------------------------------
+eclipse.buildId=3.3.1.201212171919
+java.version=1.6.0_37
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=es_ES
+Framework arguments:  -keyring /Users/Famelca/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/Famelca/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-01-12 16:19:15.523
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2013-01-13 11:52:06.490 -----------------------------------------------
+eclipse.buildId=3.3.1.201212171919
+java.version=1.6.0_37
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=es_ES
+Framework arguments:  -keyring /Users/Famelca/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/Famelca/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-01-13 11:52:19.811
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2013-01-13 11:59:37.045 -----------------------------------------------
+eclipse.buildId=3.3.1.201212171919
+java.version=1.6.0_37
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=es_ES
+Framework arguments:  -keyring /Users/Famelca/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/Famelca/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-01-13 11:59:43.948
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
