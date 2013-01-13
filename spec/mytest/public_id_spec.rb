@@ -14,7 +14,7 @@ describe "the public id process POSITIVE case", :type => :feature do
       fill_in 'Identification', :with => '123456789'
     end
     click_button('Find Employee') 
-    page.should have_content 'No Employee found with that identification'
+    page.should have_content 'Hi Test User'
   end
 end
 
@@ -28,7 +28,7 @@ describe "the public id process NEGATIVE case", :type => :feature do
     visit 'http://vacations.evercoding.com/'
     within("#content") do
       click_link('public site')
-      fill_in 'Identification', :with => '123456789'
+      fill_in 'Identification', :with => 'abcdefg'
     end
     click_button('Find Employee') 
     page.should have_content 'No Employee found with that identification'

@@ -15,7 +15,29 @@ describe "the signup process", :type => :feature do
     end
     click_button('Sign in') 
     page.should have_content 'Signed in successfully'
+    
+    click_link('Create a new employee')
+    page.should have_content 'New employee'
+  
+    fill_in 'First name', :with => 'Edber'
+    fill_in 'Last name', :with => 'Elizondo'
+    fill_in 'Email', :with => 'edber@gmail.com'
+    fill_in 'Identification', :with => '603010817'
+    fill_in 'Leader name', :with => 'Edber' 
+    click_button('Create Employee')
+    page.should have_content 'Employee was successfully created'
+    
+    
+  
   end
+  
+  
+  
+  
+  
+  
+  
+  
 end
 
   
