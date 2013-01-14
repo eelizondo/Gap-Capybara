@@ -25,7 +25,7 @@ Gap Project
 |------public_id_spec.rb
 |------login_account_spec.rb
 
-To run those test from console:
+To run the test from console:
 rspec ./spec/mytest/file_name_spec.rb
 
 
