@@ -17,7 +17,7 @@ describe "the signup process", :type => :feature do
     page.should have_content 'Signed in successfully'
     
     #Need to be improved
-    visit 'http://vacations.evercoding.com/employees/1/vacations/new'   
+    visit 'http://vacations.evercoding.com/employees/1/vacations/new'      
     page.should have_content 'Add/Request Vacations for:'
     
     fill_in 'Since', :with => '01/30/2013'
